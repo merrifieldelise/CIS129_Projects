@@ -33,5 +33,5 @@ async def on_message(message):
     # Process other commands
     await bot.process_commands(message)  # Allow command processing
 
-# Start the bot
+# Start the bot, get bot token from discord server you wish to attach the bot to
 bot.run('YOUR_BOT_TOKEN')
